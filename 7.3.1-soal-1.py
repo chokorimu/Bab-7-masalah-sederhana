@@ -19,6 +19,6 @@ else :
     #kasus genap
     index_kiri = N//2
     index_kanan = index_kiri + 1
-    median = (index_kiri + index_kanan)/2
+    median = (daftar_nilai[index_kiri] + daftar_nilai[index_kanan])/2
 #Cetak hasil dengan format .1f (satu angka di belakang koma)
 print(f"{median:.1f}")
